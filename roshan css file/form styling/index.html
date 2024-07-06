@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" contant="width-device-width,initial-scale=1.0">
+    <title>form styling</title>
+    <style>
+        fieldset {
+            border: 3px solid crimson;
+            border-radius: 20px;
+            padding-left: 40px;
+        }
+
+        legend {
+            background-color: rosybrown;
+            padding: 3px;
+            border-radius: 5px;
+            margin-left: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form with fieldsets</h1>
+    <form>
+        <fieldset>
+            <legend>login detial</legend>
+            <p>
+                <label for="username">username</label><br>
+                <input type="text" name="username" id="username">
+            </p>
+            <p>
+                <label for="password">password</label><br>
+                <input type="text" name="upassword" id="password">
+            </p>
+            <p>
+                <label for="confirm_password">comfirm password</label><br>
+                <input type="text" name="password" id="password">
+            </p>
+        </fieldset>
+    </form>
+    <p>
+        <input type="submit" value="save" name="label_form">
+    </p>
+
+</body>
+
+</html>

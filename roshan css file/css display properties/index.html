@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+    <title>css display</title>
+    <style>
+        #wrapper {
+            width: 50%;
+            border: 2px solid red;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li:hover {
+            background-color: black;
+        }
+
+        ul {
+            background-color: cadetblue;
+            height: 50px
+        }
+
+        li {
+            display: inline-block;
+            height: 50px;
+            padding: 0 15px;
+            line-height: 50px;
+        }
+
+        #coming-soon {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>display propreties</h1>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li id="coming-soon"><a href="#">courses</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
